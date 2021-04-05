@@ -14,6 +14,7 @@ public enum ProblemType {
     ProblemType(String path, String title) {
         this.uri = "https://localhost:8080" + path;
         this.title = title;
+
     }
 
 }

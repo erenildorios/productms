@@ -9,7 +9,7 @@
  Para a criação do database e da tabela proposta pelo desafio, foi utilizado o Flyway.
  
  Alterar a senha do usuário root dentro do arquivo \src\main\resouces\application.properties,
- para que a executação do projeto aconteça sem problema e seja criado o database e a tabela 
+ para que a execução do projeto aconteça sem problema e seja criado o database e a tabela 
  utilizada para as funcionalidades no microserviço.
  
  ```

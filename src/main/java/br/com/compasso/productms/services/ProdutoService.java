@@ -51,8 +51,6 @@ public class ProdutoService {
             listaProdutos.addAll(produtoRepository.findByPriceBetween(min_price.get(), max_price.get()));
         }
 
-
-
         return listaProdutos;
 
     }

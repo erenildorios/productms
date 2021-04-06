@@ -1,6 +1,6 @@
-# DESAFIO COMPASSO UOL
+## DESAFIO COMPASSO UOL
 
-## CONFIGURAÇÃO DE BANCO DE DADOS
+### CONFIGURAÇÃO DE BANCO DE DADOS
 ```
  BANCO DE DADOS : MYSQL 8.0
  USUARIO: root | SENHA: root
@@ -8,3 +8,4 @@
  
  Para a criação do database e da tabela proposta pelo desafio, foi utilizado o Flyway.
  ```
+

@@ -12,7 +12,7 @@ import java.util.List;
 public interface ProdutoRepository extends JpaRepository<Produto, String> {
 
     HashSet<Produto> findByPriceBetween(BigDecimal priceInicial, BigDecimal priceFinal);
-
+    
     HashSet<Produto> findByNameOrDescription(String name, String description);
 
 }

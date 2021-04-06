@@ -11,8 +11,8 @@ import lombok.Getter;
 @Builder
 public class Problem {
 
-    private Integer status;
-    private String type;
+    private Integer status_code;
+    private String message;
     private String title;
     private String detail;
 

@@ -41,7 +41,7 @@ public class ProdutoService {
     }
 
     public HashSet<Produto> search(Optional<BigDecimal> min_price, Optional<BigDecimal> max_price, Optional<String> q) {
-        HashSet<Produto> listaProdutos = new HashSet<Produto>();
+        HashSet<Produto> listaProdutos = new HashSet<>();
 
         if (q.isPresent()) {
             listaProdutos = produtoRepository.findByNameOrDescription(q.get(), q.get());
@@ -50,6 +50,8 @@ public class ProdutoService {
         if (min_price.isPresent() && max_price.isPresent()) {
             listaProdutos.addAll(produtoRepository.findByPriceBetween(min_price.get(), max_price.get()));
         }
+
+
 
         return listaProdutos;
 

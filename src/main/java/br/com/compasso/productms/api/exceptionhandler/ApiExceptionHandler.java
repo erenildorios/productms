@@ -19,13 +19,13 @@ public class ApiExceptionHandler extends ResponseEntityExceptionHandler {
 
         if (body == null) {
             body = Problem.builder()
-                    .title(status.getReasonPhrase())
-                    .status(status.value())
+                    .message(status.getReasonPhrase())
+                    .status_code(status.value())
                     .build();
         } else if (body instanceof String) {
             body = Problem.builder()
-                    .title((String) body)
-                    .status(status.value())
+                    .message((String) body)
+                    .status_code(status.value())
                     .build();
         }
 

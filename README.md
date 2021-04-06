@@ -11,6 +11,5 @@
  Alterar a senha do usuário root dentro do arquivo \src\main\resouces\application.properties,
  para que a execução do projeto aconteça sem problema e seja criado o database e a tabela 
  utilizada para as funcionalidades no microserviço.
- 
  ```
 
